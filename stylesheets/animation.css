@@ -1,0 +1,38 @@
+/* .block1 {
+  position: relative;
+} */
+.icon-hope {
+  width: 270px;
+  height: 305px;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  animation: glow 6s infinite linear;
+}
+.s1 {
+  background-image: url('../images/block1-step1.svg');
+  animation: glow 4s infinite 2s;
+}
+
+.s2 {
+  background-image: url('../images/block1-step2.svg');
+  animation: glow 6s infinite 2s;
+}
+
+.s3 {
+  background-image: url('../images/block1-step3.svg');
+  animation: glow 6s infinite 4s;
+}
+@keyframes glow {
+  0% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+}

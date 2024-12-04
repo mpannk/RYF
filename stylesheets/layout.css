@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1280px;
+  display: flex;
+  background-color: #1a1a1a;
+}
+.block1 {
+  width: 330px;
+  height: 580px;
+  border: 8px solid white;
+}
