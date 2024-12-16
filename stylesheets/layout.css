@@ -2,12 +2,124 @@
   box-sizing: border-box;
 }
 body {
-  width: 1280px;
-  display: flex;
+  width: 100vw;
+  /* display: flex; */
   background-color: #1a1a1a;
+  /* background-image: url(../images/1280example.svg); */
 }
-.block1 {
-  width: 330px;
-  height: 580px;
-  border: 8px solid white;
+
+/* первый экран */
+.first-container {
+  display: flex;
+  height: 53vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.container-instruments1,
+.container-instruments2 {
+  width: 28.5vw;
+  height: 53vw;
+}
+.saxophone {
+  width: 28vw;
+  height: 29vw;
+  background-image: url('../images/saxophone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tambourine {
+  width: 16vw;
+  height: 20vw;
+  background-image: url('../images/tambourine.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1vw 0 0 11vw;
+}
+.harp {
+  width: 18vw;
+  height: 19vw;
+  background-image: url('../images/harp.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5vw 0 0 4vw;
+}
+.guitar {
+  width: 22vw;
+  height: 25vw;
+  background-image: url('../images/guitar.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 4vw 0 0 2vw;
+}
+.logo {
+  width: 43vw;
+  height: 53vw;
+  background-image: url('../images/logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 27vw;
+}
+
+/* бегущая строка */
+.row1 p {
+  font-size: 5vw;
+  font-family: 'Unbounded';
+  white-space: nowrap;
+}
+.container-row1 {
+  height: 8vw;
+  width: 100%;
+  position: relative;
+  background-color: #00efff;
+  padding-top: 1vw;
+  margin-top: 1.5vw;
+}
+.row1 {
+  position: absolute;
+  width: 200%;
+}
+
+/* второй блок */
+
+.second-container {
+  display: flex;
+  height: 43vw;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* надежда */
+
+.hope {
+  width: 25vw;
+  height: 100%;
+  border-bottom: 4px solid #969696;
+  border-right: 4px solid #969696;
+  position: relative;
+}
+
+/* страх */
+
+.fear {
+  width: 25vw;
+  height: 100%;
+  border-bottom: 4px solid #969696;
+  border-right: 4px solid #969696;
+  border-left: 4px solid #969696;
+  position: relative;
+}
+
+/* грусть */
+
+.sadness {
+  width: 50vw;
+  height: 100%;
+  border-bottom: 4px solid #969696;
+  border-left: 4px solid #969696;
+  position: relative;
 }
