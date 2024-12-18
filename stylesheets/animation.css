@@ -131,22 +131,22 @@
     transform: translate(0, 0);
   }
   3% {
-    transform: translate(-7px, 4px) rotate(-2deg);
+    transform: translate(-2vw, 1vw) rotate(-4deg);
   }
   7% {
-    transform: translate(5px, -6px) rotate(2deg);
+    transform: translate(1.5vw, -42w) rotate(4deg);
   }
   12% {
-    transform: translate(-6px, 8px) rotate(-3deg);
+    transform: translate(-2vw, 1vw) rotate(-7deg);
   }
   17% {
-    transform: translate(8px, -4px) rotate(1deg);
+    transform: translate(1vw, -1vw) rotate(3deg);
   }
   23% {
-    transform: translate(-5px, 3px) rotate(-1deg);
+    transform: translate(-1.5vw, 3px) rotate(-3deg);
   }
   30% {
-    transform: translate(7px, -7px) rotate(3deg);
+    transform: translate(2vw, -2vw) rotate(7deg);
   }
   50% {
     transform: translate(0, 0) rotate(0deg);
@@ -168,56 +168,24 @@
   }
 }
 
-/* @keyframes vibration {
-  0% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(-5px, -5px);
-  }
-  20% {
-    transform: translate(5px, 5px);
-  }
-  30% {
-    transform: translate(-5px, 5px);
-  }
-  40% {
-    transform: translate(5px, -5px);
-  }
-  50% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-} */
-/* .block1 {
-  position: relative;
-} */
-/* .icon-hope {
-  width: 270px;
-  height: 305px;
-  position: absolute; */
-/* top: 0;
-  left: 0; */
-/* background-position: center; */
-/* background-repeat: no-repeat;
+/* надежда  */
+
+.hope-bw {
   animation: glow 6s infinite linear;
 }
+
 .s1 {
-  background-image: url('../images/block1-step1.svg');
   animation: glow 4s infinite 2s;
 }
 
 .s2 {
-  background-image: url('../images/block1-step2.svg');
   animation: glow 6s infinite 2s;
 }
 
 .s3 {
-  background-image: url('../images/block1-step3.svg');
   animation: glow 6s infinite 4s;
 }
+
 @keyframes glow {
   0% {
     opacity: 1;
@@ -228,4 +196,158 @@
   66% {
     opacity: 0;
   }
-} */
+}
+
+.hope-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* страх */
+
+.icon-f1 {
+  animation: movefear1 12s infinite;
+}
+.icon-f2 {
+  animation: movefear2 12s infinite;
+}
+.icon-f3 {
+  animation: movefear3 12s infinite;
+}
+.icon-f4 {
+  animation: movefear4 12s infinite;
+}
+
+@keyframes movefear1 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(-1deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(-1deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(-1deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(-1deg);
+  }
+}
+
+@keyframes movefear2 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(-1.5deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(8vw, 8vw) rotate(-1.5deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(8vw, 8vw) rotate(-1.5deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(8vw, 8vw) rotate(-1.5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(8vw, 8vw) rotate(-1.5deg);
+  }
+}
+
+@keyframes movefear3 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(8vw, 8vw) rotate(-1.5deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0vw, 16vw) rotate(0.5deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(0vw, 16vw) rotate(0.5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0vw, 16vw) rotate(0.5deg);
+  }
+}
+@keyframes movefear4 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(8vw, 8vw) rotate(-1.5deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0vw, 16vw) rotate(0.5deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(8vw, 24vw) rotate(-3.5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(8vw, 24vw) rotate(-3.5deg);
+  }
+}
+.fear-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* грусть */
+
+.icon-sadness {
+  animation: tears1 4.5s linear infinite;
+}
+
+@keyframes tears1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5vw);
+  }
+}
+
+.tears {
+  animation: tears2 4.5s linear infinite;
+}
+
+@keyframes tears2 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(15vw);
+  }
+}
+.sadness-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* умиротворение */
+
+.peace-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}

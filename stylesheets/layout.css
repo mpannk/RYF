@@ -67,6 +67,7 @@ body {
   font-size: 5vw;
   font-family: 'Unbounded';
   white-space: nowrap;
+  font-weight: 500;
 }
 .container-row1 {
   height: 8vw;
@@ -100,7 +101,41 @@ body {
   height: 100%;
   border-bottom: 4px solid #969696;
   border-right: 4px solid #969696;
+  border-collapse: collapse;
   position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.hope-bw {
+  width: 24.5vw;
+  height: 42.5vw;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.s1 {
+  background-image: url('../images/iconhope-step1.svg');
+}
+
+.s2 {
+  background-image: url('../images/iconhope-step2.svg');
+}
+
+.s3 {
+  background-image: url('../images/iconhope-step3.svg');
+}
+
+.hope-colored {
+  width: 25vw;
+  height: 43vw;
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/hope-colour.svg');
+  z-index: 2;
 }
 
 /* страх */
@@ -111,7 +146,27 @@ body {
   border-bottom: 4px solid #969696;
   border-right: 4px solid #969696;
   border-left: 4px solid #969696;
+  border-collapse: collapse;
   position: relative;
+}
+
+.fear img {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  opacity: 0;
+  margin: 3.5vw 0 0 1.2vw;
+}
+
+.fear-colored {
+  width: 25vw;
+  height: 43vw;
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/fear-colour.svg');
+  z-index: 2;
 }
 
 /* грусть */
@@ -121,5 +176,105 @@ body {
   height: 100%;
   border-bottom: 4px solid #969696;
   border-left: 4px solid #969696;
+  border-collapse: collapse;
   position: relative;
+  overflow: hidden;
+}
+.icon-sadness {
+  width: 8.5vw;
+  height: 22vw;
+  display: inline-block;
+  margin: 0 1.2vw;
+  position: relative;
+}
+.icon-sadness:nth-of-type(1) {
+  margin-left: 3.7vw;
+}
+.icon-sadness:nth-of-type(2) {
+  margin-top: 3.7vw;
+}
+.icon-sadness:nth-of-type(4) {
+  margin-top: 3.7vw;
+}
+
+.sadness-path {
+  width: 50vw;
+  height: 9vw;
+  background-image: url('../images/sadness-path.svg');
+}
+.tears {
+  width: 7.4vw;
+  height: 9vw;
+  display: inline-block;
+  margin: 0 1.2vw;
+  position: relative;
+}
+
+/* why the f it's not working */
+.tears:nth-of-type(1) {
+  margin-left: 15vw;
+}
+.sadness-colored {
+  width: 50vw;
+  height: 43vw;
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/sadness-colour.svg');
+  z-index: 2;
+}
+/* следующие два блока */
+.third-container {
+  display: flex;
+  height: 43vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* умиротворение */
+.peace {
+  width: 50vw;
+  height: 100%;
+  border-top: 4px solid #969696;
+  border-bottom: 4px solid #969696;
+  border-right: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
+}
+.right-peace-bw {
+  width: 53vw;
+  height: 68vw;
+  margin-left: 14vw;
+}
+.peace-icon-bw {
+  width: 42vw;
+  height: 42vw;
+  background-image: url('../images/iconpeace.svg');
+  background-repeat: no-repeat;
+}
+.peace-colored {
+  width: 50vw;
+  height: 43vw;
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/peace-colour.svg');
+  z-index: 2;
+}
+
+/* воодушевление */
+.excitement {
+  width: 50vw;
+  height: 100%;
+  border-bottom: 4px solid #969696;
+  border-left: 4px solid #969696;
+  border-top: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
 }
