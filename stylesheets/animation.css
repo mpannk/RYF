@@ -349,6 +349,7 @@
 
 .icon-peace-bw {
   animation: spin 5s linear infinite;
+  transform-origin: center;
 }
 @keyframes spin {
   0% {

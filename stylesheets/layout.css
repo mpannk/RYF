@@ -205,13 +205,14 @@ body {
 }
 
 /* why the f it's not working */
-.tears:nth-of-type(1) {
+.tears.first {
   margin-left: 4.5vw;
 }
 .sadness-colored {
   width: 50vw;
   height: 43vw;
   opacity: 0;
+  top: 0;
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,9 +245,10 @@ body {
 }
 
 .icon-peace-bw {
-  width: 83vw;
-  height: 83vw;
+  width: 33vw;
+  height: 33vw;
   position: absolute;
+  left: 0;
 }
 .peace-colored {
   width: 50vw;
