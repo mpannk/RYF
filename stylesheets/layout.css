@@ -28,6 +28,7 @@ body {
   background-image: url('../images/saxophone.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 .tambourine {
   width: 16vw;
@@ -36,6 +37,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 1vw 0 0 11vw;
+  background-size: contain;
 }
 .harp {
   width: 18vw;
@@ -44,6 +46,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 5vw 0 0 4vw;
+  background-size: contain;
 }
 .guitar {
   width: 22vw;
@@ -52,9 +55,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 4vw 0 0 2vw;
+  background-size: contain;
 }
 .logo {
-  width: 43vw;
+  width: 42.7vw;
   height: 53vw;
   background-image: url('../images/logo.svg');
   background-repeat: no-repeat;
@@ -105,6 +109,7 @@ body {
   position: relative;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .hope-bw {
@@ -113,6 +118,7 @@ body {
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .s1 {
@@ -148,6 +154,7 @@ body {
   border-left: 4px solid #969696;
   border-collapse: collapse;
   position: relative;
+  overflow: hidden;
 }
 
 .fear img {
@@ -155,13 +162,15 @@ body {
   width: 13vw;
   height: 13vw;
   opacity: 0;
-  margin: 3.5vw 0 0 1.2vw;
+  margin: 3vw 0 0 1.2vw;
 }
 
 .fear-colored {
   width: 25vw;
   height: 43vw;
   opacity: 0;
+  top: 0;
+  left: -0.3vw;
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,23 +199,30 @@ body {
 .icon-sadness:nth-of-type(1) {
   margin-left: 2.7vw;
 }
-
+.icon-sadness img {
+  width: 8.5vw;
+  height: 14.6vw;
+}
 .sadness-path {
   width: 50vw;
   height: 9vw;
   background-image: url('../images/sadness-path.svg');
+  background-size: contain;
 }
 .tears {
   width: 7.4vw;
   height: 9vw;
   display: inline-block;
-  margin: 0 1.2vw;
+  margin: 0 1.8vw;
   position: relative;
+  opacity: 0;
 }
-
-/* why the f it's not working */
+.tears img {
+  width: 7.4vw;
+  height: 5.6vw;
+}
 .tears.first {
-  margin-left: 4.5vw;
+  margin-left: 4.2vw;
 }
 .sadness-colored {
   width: 50vw;
@@ -242,13 +258,15 @@ body {
   background-image: url(../images/peace.svg);
   background-repeat: no-repeat;
   background-position: right;
+  background-size: contain;
 }
 
 .icon-peace-bw {
   width: 33vw;
   height: 33vw;
   position: absolute;
-  left: 0;
+  left: -20vw;
+  top: 5.5vw;
 }
 .peace-colored {
   width: 50vw;
@@ -270,9 +288,52 @@ body {
   border-top: 4px solid #969696;
   border-collapse: collapse;
   position: relative;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
 }
 
+.box {
+  width: 12.5vw;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 1.5vw;
+  display: flex;
+}
+.icon-excitement {
+  width: 12vw;
+  height: 12vw;
+}
+.icon-excitement.fix {
+  margin-bottom: 3vw;
+}
+.icon-excitement.fix2 {
+  margin-top: 3vw;
+}
+.box.exc1 {
+  justify-content: flex-end;
+  gap: 3.5vw;
+}
+.box.exc2 {
+  justify-content: flex-start;
+  gap: 3.5vw;
+  margin: 0 1vw 0 1vw;
+}
+.box.exc3 {
+  justify-content: flex-end;
+  gap: 3.5vw;
+}
+.excitement-colored {
+  width: 50vw;
+  height: 43vw;
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/excitement-colour.svg');
+  z-index: 2;
+}
 /* блок с гитарой */
 .forth-container {
   display: flex;
@@ -297,6 +358,8 @@ body {
   background-repeat: no-repeat;
 }
 
+/* влюбленность */
+
 .crush {
   width: 25vw;
   height: 100%;
@@ -305,7 +368,33 @@ body {
   border-left: 4px solid #969696;
   border-collapse: collapse;
   position: relative;
+  background-image: url('../images/crush-back.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
+}
+.icon-crush {
+  width: 21.5vw;
+  height: 12.5vw;
+  opacity: 0;
+  background-image: url('../images/iconcrush.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.crush-colored {
+  width: 25vw;
+  height: 43vw;
+  top: 0;
+  left: -0.3vw;
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/crush-colour.svg');
+  z-index: 2;
 }
 
 /* следующие два блока 2 */
@@ -327,7 +416,38 @@ body {
   border-collapse: collapse;
   position: relative;
   overflow: hidden;
+  background-image: url('../images/iconpain.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: right;
+  display: flex;
 }
+.text {
+  width: 20.1vw;
+  height: 12.3vw;
+  margin-top: 17vw;
+  margin-right: 2vw;
+}
+.text p {
+  font-size: 2.6vw;
+  font-family: 'Unbounded';
+  font-weight: 400;
+  color: #ffffff;
+}
+.pain-colored {
+  width: 50vw;
+  height: 43vw;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/pain-colour.svg');
+  z-index: 2;
+}
+
+/* гнев */
 
 .anger {
   width: 50vw;
@@ -338,22 +458,70 @@ body {
   border-collapse: collapse;
   position: relative;
   overflow: hidden;
+  background-image: url('../images/iconanger.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.anger-colored {
+  width: 50vw;
+  height: 43vw;
+  opacity: 0;
+  top: 0;
+  left: -0.7vw;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/anger-colour.svg');
+  z-index: 2;
+}
 /* блок радость */
 .sixth-container {
-  display: flex;
   height: 43vw;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
   border-top: 4px solid #969696;
   border-collapse: collapse;
   position: relative;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-
+.st-path {
+  width: 100vw;
+  height: 21.5vw;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  background-image: url('../images/joy-1stpath.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon-joy {
+  width: 15vw;
+  height: 15vw;
+  margin-left: 1vw;
+  margin-top: 4vw;
+}
+.nd-path {
+  width: 188vw;
+  height: 17vw;
+  background-image: url('../images/joy-2ndpath.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.joy-colored {
+  width: 100vw;
+  height: 43vw;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/joy-colour.png');
+  z-index: 2;
+}
 /* подвал */
 .row2 p {
   font-size: 5vw;
@@ -370,5 +538,5 @@ body {
 }
 .row2 {
   position: absolute;
-  width: 200%;
+  width: 70%;
 }

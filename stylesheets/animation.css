@@ -15,93 +15,93 @@
   /* второй лого */
   8% {
     opacity: 0;
-    background-position: -534px 0;
+    background-position: -41.7vw 0;
   }
   12% {
     opacity: 1;
-    background-position: -534px 0;
+    background-position: -41.7vw 0;
   }
   16% {
     opacity: 0;
-    background-position: -534px 0;
+    background-position: -41.7vw 0;
   }
   /* третий лого */
   20% {
     opacity: 0;
-    background-position: -1068px 0;
+    background-position: -83.4vw 0;
   }
   24% {
     opacity: 1;
-    background-position: -1068px 0;
+    background-position: -83.4vw 0;
   }
   28% {
     opacity: 0;
-    background-position: -1068px 0;
+    background-position: -83.4vw 0;
   }
   /* четвертый лого */
   32% {
     opacity: 0;
-    background-position: -1602px 0;
+    background-position: -125.1vw 0;
   }
   36% {
     opacity: 1;
-    background-position: -1602px 0;
+    background-position: -125.1vw 0;
   }
   40% {
     opacity: 0;
-    background-position: -1602px 0;
+    background-position: -125.1vw 0;
   }
   /* пятый лого */
   44% {
     opacity: 0;
-    background-position: -2136px 0;
+    background-position: -166.9vw 0;
   }
   48% {
     opacity: 1;
-    background-position: -2136px 0;
+    background-position: -166.9vw 0;
   }
   52% {
     opacity: 0;
-    background-position: -2136px 0;
+    background-position: -166.9vw 0;
   }
   /* шестой лого */
   56% {
     opacity: 0;
-    background-position: -2670px 0;
+    background-position: -208.6vw 0;
   }
   60% {
     opacity: 1;
-    background-position: -2670px 0;
+    background-position: -208.6vw 0;
   }
   64% {
     opacity: 0;
-    background-position: -2670px 0;
+    background-position: -208.6vw 0;
   }
   /* седьмой лого */
   68% {
     opacity: 0;
-    background-position: -3204px 0;
+    background-position: -250.3vw 0;
   }
   72% {
     opacity: 1;
-    background-position: -3204px 0;
+    background-position: -250.3vw 0;
   }
   76% {
     opacity: 0;
-    background-position: -3204px 0;
+    background-position: -250.3vw 0;
   }
   /* восьмой лого */
   80% {
     opacity: 0;
-    background-position: -3738px 0;
+    background-position: -292vw 0;
   }
   84% {
     opacity: 1;
-    background-position: -3738px 0;
+    background-position: -292vw 0;
   }
   88% {
     opacity: 0;
-    background-position: -3738px 0;
+    background-position: -292vw 0;
   }
   /* возвращение к первому */
   92% {
@@ -316,12 +316,15 @@
 /* грусть */
 
 .icon-sadness {
-  animation: tears1 4.5s linear infinite;
+  animation: tears1 5s linear infinite;
 }
 
 @keyframes tears1 {
   0% {
     transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5vw);
   }
   100% {
     transform: translateY(5vw);
@@ -329,11 +332,13 @@
 }
 
 .tears {
-  animation: tears2 4.5s linear infinite;
+  animation: tears2 5s linear infinite;
+  animation-delay: 2.5s;
 }
 
 @keyframes tears2 {
   0% {
+    opacity: 1;
     transform: translateY(0);
   }
   100% {
@@ -362,4 +367,140 @@
 .peace-colored:hover {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+}
+
+/* воодушевление */
+
+.icon-excitement {
+  animation: swings 2s linear infinite;
+}
+
+@keyframes swings {
+  0% {
+    transform: rotate(7deg);
+  }
+  50% {
+    transform: rotate(-7deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+.excitement-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* гитара */
+
+/* влюбленность */
+
+.icon-crush {
+  animation: opacitycrush 4s linear infinite;
+}
+
+@keyframes opacitycrush {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.crush-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* боль */
+
+.text span {
+  animation: changetext 5s ease-in-out infinite;
+}
+
+@keyframes changetext {
+  0% {
+    color: #ffffff;
+  }
+  20% {
+    color: #00efff;
+  }
+  40% {
+    color: #61ff00;
+  }
+  60% {
+    color: #8f00ff;
+  }
+  80% {
+    color: #bf0c00;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+.pain-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+/* гнев */
+.anger {
+  animation: pop 6s steps(1) infinite;
+}
+
+@keyframes pop {
+  0% {
+    background-position: 0vw 0vw;
+  }
+  30% {
+    background-position: -50vw 0vw;
+  }
+  60% {
+    background-position: -100vw 0vw;
+  }
+  90% {
+    background-position: -150vw 0vw;
+  }
+}
+.anger-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* радость */
+
+.nd-path {
+  animation: pngrow 8s linear infinite;
+}
+
+@keyframes pngrow {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.joy-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* подвал */
+.row2 {
+  animation: row2 4s linear infinite;
+}
+
+@keyframes row2 {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-115%);
+  }
+}
+.row2:hover {
+  animation-play-state: paused;
 }
