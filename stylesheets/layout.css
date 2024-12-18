@@ -188,13 +188,7 @@ body {
   position: relative;
 }
 .icon-sadness:nth-of-type(1) {
-  margin-left: 3.7vw;
-}
-.icon-sadness:nth-of-type(2) {
-  margin-top: 3.7vw;
-}
-.icon-sadness:nth-of-type(4) {
-  margin-top: 3.7vw;
+  margin-left: 2.7vw;
 }
 
 .sadness-path {
@@ -212,7 +206,7 @@ body {
 
 /* why the f it's not working */
 .tears:nth-of-type(1) {
-  margin-left: 15vw;
+  margin-left: 4.5vw;
 }
 .sadness-colored {
   width: 50vw;
@@ -244,17 +238,15 @@ body {
   border-collapse: collapse;
   position: relative;
   overflow: hidden;
-}
-.right-peace-bw {
-  width: 53vw;
-  height: 68vw;
-  margin-left: 14vw;
-}
-.peace-icon-bw {
-  width: 42vw;
-  height: 42vw;
-  background-image: url('../images/iconpeace.svg');
+  background-image: url(../images/peace.svg);
   background-repeat: no-repeat;
+  background-position: right;
+}
+
+.icon-peace-bw {
+  width: 83vw;
+  height: 83vw;
+  position: absolute;
 }
 .peace-colored {
   width: 50vw;
@@ -277,4 +269,104 @@ body {
   border-collapse: collapse;
   position: relative;
   overflow: hidden;
+}
+
+/* блок с гитарой */
+.forth-container {
+  display: flex;
+  height: 43vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.big-guitar {
+  width: 75vw;
+  height: 100%;
+  border-top: 4px solid #969696;
+  border-bottom: 4px solid #969696;
+  border-right: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../images/big-guitar.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.crush {
+  width: 25vw;
+  height: 100%;
+  border-top: 4px solid #969696;
+  border-bottom: 4px solid #969696;
+  border-left: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
+}
+
+/* следующие два блока 2 */
+
+.fifth-container {
+  display: flex;
+  height: 43vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.pain {
+  width: 50vw;
+  height: 100%;
+  border-top: 4px solid #969696;
+  border-bottom: 4px solid #969696;
+  border-right: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
+}
+
+.anger {
+  width: 50vw;
+  height: 100%;
+  border-top: 4px solid #969696;
+  border-bottom: 4px solid #969696;
+  border-left: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
+}
+
+/* блок радость */
+.sixth-container {
+  display: flex;
+  height: 43vw;
+  justify-content: center;
+  align-items: center;
+  border-top: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* подвал */
+.row2 p {
+  font-size: 5vw;
+  font-family: 'Unbounded';
+  white-space: nowrap;
+  font-weight: 500;
+}
+.the-end {
+  height: 8vw;
+  width: 100%;
+  position: relative;
+  background-color: #00efff;
+  padding-top: 1vw;
+}
+.row2 {
+  position: absolute;
+  width: 200%;
 }
