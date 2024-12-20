@@ -2,10 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  width: 100vw;
-  /* display: flex; */
+  width: 100%;
   background-color: #1a1a1a;
-  /* background-image: url(../images/1280example.svg); */
 }
 
 /* первый экран */
@@ -335,6 +333,7 @@ body {
   z-index: 2;
 }
 /* блок с гитарой */
+
 .forth-container {
   display: flex;
   height: 43vw;
@@ -354,8 +353,64 @@ body {
   position: relative;
   overflow: hidden;
   background-image: url('../images/big-guitar.svg');
-  background-size: contain;
+  background-size: cover;
+  background-size: auto;
+  background-position: center;
   background-repeat: no-repeat;
+}
+.strings {
+  width: 20vw;
+  height: 88vw;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  transform: rotate(-66.5deg);
+  left: 25vw;
+  bottom: -22.9vw;
+}
+
+.orange-string1 {
+  width: 3.4vw;
+  height: 88vw;
+  background-image: url('../images/wide-string.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lemon-string2 {
+  width: 3.4vw;
+  height: 88vw;
+  background-image: url('../images/wide-string.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blue-string3 {
+  width: 3.4vw;
+  height: 88vw;
+  background-image: url('../images/wide-string.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.yellow-string4 {
+  width: 3.4vw;
+  height: 88vw;
+  background-image: url('../images/narrow-string.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.green-string5 {
+  width: 3.4vw;
+  height: 88vw;
+  background-image: url('../images/narrow-string.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pink-string6 {
+  width: 3.4vw;
+  height: 88vw;
+  background-image: url('../images/narrow-string.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* влюбленность */

@@ -393,6 +393,25 @@
 
 /* гитара */
 
+.orange-string1:hover {
+  background-image: url('../images/orange.svg');
+}
+.lemon-string2:hover {
+  background-image: url('../images/lemon.svg');
+}
+.blue-string3:hover {
+  background-image: url('../images/blue.svg');
+}
+.yellow-string4:hover {
+  background-image: url('../images/yellow.svg');
+}
+.green-string5:hover {
+  background-image: url('../images/green.svg');
+}
+.pink-string6:hover {
+  background-image: url('../images/pink.svg');
+}
+
 /* влюбленность */
 
 .icon-crush {
@@ -447,21 +466,21 @@
 }
 /* гнев */
 .anger {
-  animation: pop 6s steps(1) infinite;
+  animation: pop 3s steps(1) infinite;
 }
 
 @keyframes pop {
   0% {
-    background-position: 0vw 0vw;
+    background-position: -0.1vw 0vw;
   }
   30% {
-    background-position: -50vw 0vw;
+    background-position: -49.65vw 0vw;
   }
   60% {
-    background-position: -100vw 0vw;
+    background-position: -99.2vw 0vw;
   }
   90% {
-    background-position: -150vw 0vw;
+    background-position: -148.75vw 0vw;
   }
 }
 .anger-colored:hover {
@@ -477,10 +496,10 @@
 
 @keyframes pngrow {
   0% {
-    transform: translateX(-2%);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(2%);
   }
 }
 .joy-colored:hover {
