@@ -225,42 +225,42 @@
   }
   25% {
     opacity: 1;
-    transform: translate(0, 0) rotate(-1deg);
+    transform: translate(0, 0) rotate(-0.8deg);
   }
   50% {
     opacity: 1;
-    transform: translate(0, 0) rotate(-1deg);
+    transform: translate(0, 0) rotate(-0.8deg);
   }
   75% {
     opacity: 1;
-    transform: translate(0, 0) rotate(-1deg);
+    transform: translate(0, 0) rotate(-0.8deg);
   }
   100% {
     opacity: 0;
-    transform: translate(0, 0) rotate(-1deg);
+    transform: translate(0, 0) rotate(-0.8deg);
   }
 }
 
 @keyframes movefear2 {
   0% {
     opacity: 0;
-    transform: translate(0, 0) rotate(-1.5deg);
+    transform: translate(0, 0) rotate(0deg);
   }
   25% {
     opacity: 1;
-    transform: translate(8vw, 8vw) rotate(-1.5deg);
+    transform: translate(8vw, 8vw) rotate(0deg);
   }
   50% {
     opacity: 1;
-    transform: translate(8vw, 8vw) rotate(-1.5deg);
+    transform: translate(8vw, 8vw) rotate(0deg);
   }
   75% {
     opacity: 1;
-    transform: translate(8vw, 8vw) rotate(-1.5deg);
+    transform: translate(8vw, 8vw) rotate(0deg);
   }
   100% {
     opacity: 0;
-    transform: translate(8vw, 8vw) rotate(-1.5deg);
+    transform: translate(8vw, 8vw) rotate(0deg);
   }
 }
 
@@ -271,19 +271,19 @@
   }
   25% {
     opacity: 1;
-    transform: translate(8vw, 8vw) rotate(-1.5deg);
+    transform: translate(8vw, 8vw) rotate(0deg);
   }
   50% {
     opacity: 1;
-    transform: translate(0vw, 16vw) rotate(0.5deg);
+    transform: translate(0vw, 16vw) rotate(1.2deg);
   }
   75% {
     opacity: 1;
-    transform: translate(0vw, 16vw) rotate(0.5deg);
+    transform: translate(0vw, 16vw) rotate(1.2deg);
   }
   100% {
     opacity: 0;
-    transform: translate(0vw, 16vw) rotate(0.5deg);
+    transform: translate(0vw, 16vw) rotate(1.2deg);
   }
 }
 @keyframes movefear4 {
@@ -293,19 +293,19 @@
   }
   25% {
     opacity: 1;
-    transform: translate(8vw, 8vw) rotate(-1.5deg);
+    transform: translate(8vw, 8vw) rotate(0deg);
   }
   50% {
     opacity: 1;
-    transform: translate(0vw, 16vw) rotate(0.5deg);
+    transform: translate(0vw, 16vw) rotate(1.2deg);
   }
   75% {
     opacity: 1;
-    transform: translate(8vw, 24vw) rotate(-3.5deg);
+    transform: translate(8vw, 24vw) rotate(-2.4deg);
   }
   100% {
     opacity: 0;
-    transform: translate(8vw, 24vw) rotate(-3.5deg);
+    transform: translate(8vw, 24vw) rotate(-2.4deg);
   }
 }
 .fear-colored:hover {

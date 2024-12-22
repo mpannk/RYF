@@ -1,0 +1,87 @@
+@media screen and (max-width: 1024px) {
+  .first-container {
+    flex-direction: row;
+  }
+
+  .container-instruments1,
+  .container-instruments2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .logo {
+    margin-top: 20vw;
+    position: absolute;
+  }
+
+  .tambourine {
+    width: 20vw;
+    height: 24vw;
+    margin: 1vw 0 0 0vw;
+  }
+
+  .harp {
+    width: 18vw;
+    height: 19vw;
+    margin: 5vw 0 0 0;
+  }
+
+  .guitar {
+    width: 19vw;
+    height: 22vw;
+    margin: 4vw 0 0 0;
+  }
+  .row1 {
+    animation: row1 10s linear infinite;
+  }
+}
+@media screen and (max-width: 414px) {
+  .first-container {
+    height: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .container-instruments1,
+  .container-instruments2 {
+    width: 28.5vw;
+    height: 35vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+  }
+  .container-instruments1 {
+    margin-right: 10vw;
+  }
+  .saxophone {
+    width: 48vw;
+    height: 49vw;
+    background-size: 38vw 39vw;
+    margin: -5vw 0 0 -2vw;
+  }
+  .tambourine {
+    width: 38vw;
+    height: 34vw;
+    background-size: 38vw 34vw;
+    margin: 2vw 8vw 5vw -2vw;
+  }
+
+  .harp {
+    width: 28vw;
+    height: 29vw;
+    background-size: 28vw 29vw;
+    margin: 3vw 0 0 8vw;
+  }
+
+  .guitar {
+    width: 29vw;
+    height: 32vw;
+    background-size: 29vw 32vw;
+    margin: 4vw 0 0 0;
+  }
+  .logo {
+    margin-top: 60vw;
+  }
+  .second-container {
+    flex-direction: row;
+  }
+}
