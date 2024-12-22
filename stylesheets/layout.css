@@ -97,12 +97,21 @@ body {
   padding: 0;
 }
 
+.extra {
+  width: 50vw;
+  height: 100%;
+  border-bottom: 4px solid #969696;
+  border-collapse: collapse;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
 /* надежда */
 
 .hope {
-  width: 25vw;
+  width: 50%;
   height: 100%;
-  border-bottom: 4px solid #969696;
   border-right: 4px solid #969696;
   border-collapse: collapse;
   position: relative;
@@ -147,10 +156,8 @@ body {
 /* страх */
 
 .fear {
-  width: 25vw;
+  width: 50%;
   height: 100%;
-  border-bottom: 4px solid #969696;
-  border-right: 4px solid #969696;
   border-left: 4px solid #969696;
   border-collapse: collapse;
   position: relative;

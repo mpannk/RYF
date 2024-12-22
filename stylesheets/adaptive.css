@@ -37,51 +37,263 @@
 }
 @media screen and (max-width: 414px) {
   .first-container {
-    height: 100vw;
+    height: 160vw;
     flex-direction: column;
     justify-content: flex-start;
   }
   .container-instruments1,
   .container-instruments2 {
-    width: 28.5vw;
-    height: 35vw;
+    width: 100%;
+    height: 45vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3vw;
   }
   .container-instruments1 {
     margin-right: 10vw;
+    margin-bottom: 4vw;
+  }
+  .container-instruments2 {
+    margin-left: 20vw;
   }
   .saxophone {
     width: 48vw;
     height: 49vw;
-    background-size: 38vw 39vw;
-    margin: -5vw 0 0 -2vw;
+    background-size: 48vw 49vw;
+    margin: 16vw 0 0 10vw;
   }
   .tambourine {
-    width: 38vw;
-    height: 34vw;
-    background-size: 38vw 34vw;
-    margin: 2vw 8vw 5vw -2vw;
+    width: 46vw;
+    height: 44vw;
+    background-size: 46vw 44vw;
+    margin: 8vw 8vw 5vw -2vw;
   }
 
   .harp {
-    width: 28vw;
-    height: 29vw;
-    background-size: 28vw 29vw;
-    margin: 3vw 0 0 8vw;
+    width: 38vw;
+    height: 39vw;
+    background-size: 38vw 39vw;
+    margin: 18vw 0 0 8vw;
   }
 
   .guitar {
-    width: 29vw;
-    height: 32vw;
-    background-size: 29vw 32vw;
-    margin: 4vw 0 0 0;
+    width: 36vw;
+    height: 40vw;
+    background-size: 36vw 40vw;
+    margin: 8vw 32vw 0 0vw;
   }
   .logo {
-    margin-top: 60vw;
+    margin-top: 100vw;
+  }
+
+  .row1 p {
+    font-size: 22vw;
+  }
+  .container-row1 {
+    height: 28vw;
   }
   .second-container {
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .extra,
+  .sadness {
+    width: 100%;
+    height: 86vw;
+  }
+  .sadness {
+    border-left: 0px;
+  }
+  .hope-bw {
+    width: 50vw;
+    height: 85.5vw;
+  }
+  .hope-colored {
+    width: 50vw;
+    height: 86vw;
+  }
+  .fear img {
+    width: 30vw;
+    height: 30vw;
+  }
+  .fear-colored {
+    width: 50vw;
+    height: 86vw;
+  }
+  .icon-sadness {
+    width: 17vw;
+    height: 44vw;
+    margin: 0 3vw;
+  }
+  .icon-sadness img {
+    width: 17vw;
+    height: 44vw;
+  }
+  .icon-sadness:nth-of-type(1) {
+    margin-left: 5vw;
+  }
+  .sadness-path {
+    width: 100vw;
+    height: 18vw;
+  }
+  .tears {
+    width: 14.8vw;
+    height: 18vw;
+    margin: 0 4.5vw;
+  }
+  .tears img {
+    width: 14.8vw;
+    height: 11vw;
+  }
+  .sadness-colored {
+    width: 100vw;
+    height: 86vw;
+  }
+  .third-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .peace,
+  .excitement {
+    width: 100%;
+    height: 86vw;
+  }
+  .peace {
+    border-right: 0px solid #969696;
+  }
+  .icon-peace-bw {
+    width: 63vw;
+    height: 63vw;
+    left: -35vw;
+    top: 8.5vw;
+  }
+  .peace-colored {
+    width: 100vw;
+    height: 86vw;
+  }
+  .excitement {
+    border-left: 0px solid #969696;
+  }
+  .box {
+    width: 32.5vw;
+    align-items: center;
+  }
+  .icon-excitement {
+    width: 24vw;
+    height: 24vw;
+  }
+  .icon-excitement.fix {
+    margin-bottom: 8vw;
+  }
+  .icon-excitement.fix2 {
+    margin-top: 8vw;
+  }
+  .box.exc1 {
+    gap: 7vw;
+  }
+  .box.exc2 {
+    gap: 7vw;
+    margin: 0 2vw 0 2vw;
+  }
+  .box.exc3 {
+    gap: 7vw;
+  }
+  .excitement-colored {
+    width: 100vw;
+    height: 86vw;
+  }
+  .forth-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .big-guitar {
+    width: 100vw;
+    height: 86vw;
+    border-right: 0px solid #969696;
+    background-size: 180vw 86vw;
+  }
+  .strings {
+    width: 60vw;
+    height: 100vw;
+    left: 25vw;
+    bottom: 10vw;
+  }
+  .crush {
+    width: 100vw;
+    height: 86vw;
+    border-left: 0px solid #969696;
+    background-image: url('../images/crush-back-adapt.svg');
+  }
+  .icon-crush {
+    width: 41.5vw;
+    height: 22.5vw;
+    background-image: url('../images/iconcrush-adapt.svg');
+  }
+  .crush-colored {
+    width: 100vw;
+    height: 86vw;
+    background-image: url('../images/crush-colour-adapt.svg');
+  }
+  .fifth-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .pain,
+  .anger {
+    width: 100%;
+    height: 86vw;
+    border-right: none;
+    border-left: none;
+  }
+  .text {
+    width: 40.2vw;
+    height: 24.6vw;
+    margin-top: 38vw;
+  }
+  .text p {
+    font-size: 5.2vw;
+  }
+  .pain-colored {
+    width: 100vw;
+    height: 86vw;
+  }
+  .anger {
+    background-size: 400vw 86vw;
+  }
+  .anger-colored {
+    width: 100vw;
+    height: 86vw;
+  }
+  .row2 p {
+    font-size: 22vw;
+  }
+  .the-end {
+    height: 28vw;
+  }
+  .sixth-container {
+    height: 86vw;
+  }
+  .st-path {
+    height: 43vw;
+    background-size: 100vw 43vw;
+  }
+  .icon-joy {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 1vw;
+    margin-top: 14vw;
+  }
+  .nd-path {
+    height: 43vw;
+    background-size: 260vw 43vw;
+  }
+  .joy-colored {
+    width: 100vw;
+    height: 86vw;
+    background-image: url('../images/joy-colour-adapt.png');
   }
 }
