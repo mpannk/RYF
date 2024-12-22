@@ -6,102 +6,102 @@
 @keyframes changeLogo {
   0% {
     opacity: 1;
-    background-position: 0 0;
+    background-position: 0.8vw 0;
   }
   4% {
     opacity: 0;
-    background-position: 0 0;
+    background-position: 0.8vw 0;
   }
   /* второй лого */
   8% {
     opacity: 0;
-    background-position: -41.7vw 0;
+    background-position: -41.2vw 0;
   }
   12% {
     opacity: 1;
-    background-position: -41.7vw 0;
+    background-position: -41.2vw 0;
   }
   16% {
     opacity: 0;
-    background-position: -41.7vw 0;
+    background-position: -41.2vw 0;
   }
   /* третий лого */
   20% {
     opacity: 0;
-    background-position: -83.4vw 0;
+    background-position: -82.4vw 0;
   }
   24% {
     opacity: 1;
-    background-position: -83.4vw 0;
+    background-position: -82.4vw 0;
   }
   28% {
     opacity: 0;
-    background-position: -83.4vw 0;
+    background-position: -82.4vw 0;
   }
   /* четвертый лого */
   32% {
     opacity: 0;
-    background-position: -125.1vw 0;
+    background-position: -123.6vw 0;
   }
   36% {
     opacity: 1;
-    background-position: -125.1vw 0;
+    background-position: -123.6vw 0;
   }
   40% {
     opacity: 0;
-    background-position: -125.1vw 0;
+    background-position: -123.6vw 0;
   }
   /* пятый лого */
   44% {
     opacity: 0;
-    background-position: -166.9vw 0;
+    background-position: -164.8vw 0;
   }
   48% {
     opacity: 1;
-    background-position: -166.9vw 0;
+    background-position: -164.8vw 0;
   }
   52% {
     opacity: 0;
-    background-position: -166.9vw 0;
+    background-position: -164.8vw 0;
   }
   /* шестой лого */
   56% {
     opacity: 0;
-    background-position: -208.6vw 0;
+    background-position: -206vw 0;
   }
   60% {
     opacity: 1;
-    background-position: -208.6vw 0;
+    background-position: -206vw 0;
   }
   64% {
     opacity: 0;
-    background-position: -208.6vw 0;
+    background-position: -206vw 0;
   }
   /* седьмой лого */
   68% {
     opacity: 0;
-    background-position: -250.3vw 0;
+    background-position: -247.2vw 0;
   }
   72% {
     opacity: 1;
-    background-position: -250.3vw 0;
+    background-position: -247.2vw 0;
   }
   76% {
     opacity: 0;
-    background-position: -250.3vw 0;
+    background-position: -247.2vw 0;
   }
   /* восьмой лого */
   80% {
     opacity: 0;
-    background-position: -292vw 0;
+    background-position: -288.4vw 0;
   }
   84% {
     opacity: 1;
-    background-position: -292vw 0;
+    background-position: -288.4vw 0;
   }
   88% {
     opacity: 0;
-    background-position: -292vw 0;
+    background-position: -288.4vw 0;
   }
   /* возвращение к первому */
   92% {
@@ -471,16 +471,16 @@
 
 @keyframes pop {
   0% {
-    background-position: -0.1vw 0vw;
+    background-position: 0vw 0vw;
   }
   30% {
-    background-position: -49.65vw 0vw;
+    background-position: -50vw 0vw;
   }
   60% {
-    background-position: -99.2vw 0vw;
+    background-position: -100vw 0vw;
   }
   90% {
-    background-position: -148.75vw 0vw;
+    background-position: -150vw 0vw;
   }
 }
 .anger-colored:hover {
