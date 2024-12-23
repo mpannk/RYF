@@ -159,6 +159,7 @@ body {
   width: 50%;
   height: 100%;
   border-left: 4px solid #969696;
+  border-right: 4px solid #969696;
   border-collapse: collapse;
   position: relative;
   overflow: hidden;

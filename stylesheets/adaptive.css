@@ -89,7 +89,10 @@
   }
 
   .row1 p {
-    font-size: 22vw;
+    font-size: 20vw;
+  }
+  .row1 {
+    animation: row1 4s linear infinite;
   }
   .container-row1 {
     height: 28vw;
@@ -106,6 +109,7 @@
   }
   .sadness {
     border-left: 0px;
+    border-top: 4px solid #969696;
   }
   .hope-bw {
     width: 50vw;
@@ -285,8 +289,12 @@
     height: 86vw;
   }
   .row2 p {
-    font-size: 22vw;
+    font-size: 20vw;
   }
+  .row2 {
+    animation: row2 2s linear infinite;
+  }
+
   .the-end {
     height: 28vw;
   }
