@@ -36,7 +36,7 @@
     animation: row1 10s linear infinite;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
   .first-container {
     height: 160vw;
     flex-direction: column;
