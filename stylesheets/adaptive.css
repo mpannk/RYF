@@ -44,7 +44,7 @@
   }
   .container-instruments1,
   .container-instruments2 {
-    width: 80vw;
+    width: 60vw;
     height: 45vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -118,6 +118,9 @@
   .hope-colored {
     width: 50vw;
     height: 86vw;
+  }
+  .fear {
+    border-right: 0px;
   }
   .fear img {
     width: 30vw;
