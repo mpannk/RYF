@@ -308,6 +308,96 @@
     transform: translate(8vw, 24vw) rotate(-2.4deg);
   }
 }
+@keyframes movefear1Mobile {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(-0.8deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(-0.8deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(-0.8deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(-0.8deg);
+  }
+}
+
+@keyframes movefear2Mobile {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(16vw, 16vw) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(16vw, 16vw) rotate(0deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(16vw, 16vw) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(16vw, 16vw) rotate(0deg);
+  }
+}
+
+@keyframes movefear3Mobile {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(16vw, 16vw) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0vw, 32vw) rotate(1.2deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(0vw, 32vw) rotate(1.2deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0vw, 32vw) rotate(1.2deg);
+  }
+}
+@keyframes movefear4Mobile {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(16vw, 16vw) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0vw, 32vw) rotate(1.2deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(16vw, 48vw) rotate(-2.4deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(16vw, 48vw) rotate(-2.4deg);
+  }
+}
 .fear-colored:hover {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
@@ -481,6 +571,20 @@
   }
   90% {
     background-position: -150vw 0vw;
+  }
+}
+@keyframes popMobile {
+  0% {
+    background-position: 0vw 0vw;
+  }
+  30% {
+    background-position: -100vw 0vw;
+  }
+  60% {
+    background-position: -200vw 0vw;
+  }
+  90% {
+    background-position: -300vw 0vw;
   }
 }
 .anger-colored:hover {
