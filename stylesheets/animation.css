@@ -493,4 +493,137 @@
   background-image: url('../images/blue.svg');
 }
 .yellow-string4:hover {
-  background-image: url('.
+  background-image: url('../images/yellow.svg');
+}
+.green-string5:hover {
+  background-image: url('../images/green.svg');
+}
+.pink-string6:hover {
+  background-image: url('../images/pink.svg');
+}
+
+/* влюбленность */
+
+.icon-crush {
+  animation: opacitycrush 4s linear infinite;
+}
+
+@keyframes opacitycrush {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.crush-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* боль */
+
+.text span {
+  animation: changetext 5s ease-in-out infinite;
+}
+
+@keyframes changetext {
+  0% {
+    color: #ffffff;
+  }
+  20% {
+    color: #00efff;
+  }
+  40% {
+    color: #61ff00;
+  }
+  60% {
+    color: #8f00ff;
+  }
+  80% {
+    color: #bf0c00;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+.pain-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+/* гнев */
+.anger {
+  animation: pop 3s steps(1) infinite;
+}
+
+@keyframes pop {
+  0% {
+    background-position: 0vw 0vw;
+  }
+  30% {
+    background-position: -50vw 0vw;
+  }
+  60% {
+    background-position: -100vw 0vw;
+  }
+  90% {
+    background-position: -150vw 0vw;
+  }
+}
+@keyframes popMobile {
+  0% {
+    background-position: 0vw 0vw;
+  }
+  30% {
+    background-position: -100vw 0vw;
+  }
+  60% {
+    background-position: -200vw 0vw;
+  }
+  90% {
+    background-position: -300vw 0vw;
+  }
+}
+.anger-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* радость */
+
+.nd-path {
+  animation: pngrow 8s linear infinite;
+}
+
+@keyframes pngrow {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(2%);
+  }
+}
+.joy-colored:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* подвал */
+.row2 {
+  animation: row2 4s linear infinite;
+}
+
+@keyframes row2 {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-115%);
+  }
+}
+.row2:hover {
+  animation-play-state: paused;
+}
